@@ -60,13 +60,13 @@ body{
     padding: 5px 1px;
 }
 .pacote1:hover{
-    scale: 0.25;
+    scale: 1.12;
 }
 .pacote2:hover{
-    scale: 0.25;
+    scale: 1.12;
 }
 .pacote3:hover{
-    scale: 0.25;
+    scale: 1.12;
 }
 .pacote2{
     border: 3px solid black;
