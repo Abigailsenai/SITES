@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: #648769;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconeLivros{
+    width: 600px;
+    margin: 50px;
+}
+.titulo{
+    color: white;
+    font-size: 100px;
+    width: 650px;
+}
+span{
+    color: #2A5B31;
+}
+h3{
+    font-size: 64px;
+    margin: 90px 1px 170px 76px;
+    width: 1000px
+}
+.perguntas {
+    display: flex;
+}
+.resposta1{
+    padding: 50px 76px;
+    justify-content: left;
+}
+.resposta2{
+    padding: 50px 76px;
+    justify-content: left;
+}
+.resposta3{
+    padding: 65px 100px;
+    justify-content: left;
+}
+.icone {
+    height: 154px;
+}
+h4 {
+    font-size: 48px;
+}
+p{
+    font-size: 35px;
+}
+footer{
+    background-color: #648769;
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    padding: 252px 0 252px 0;
+    width: 1445px;
+    color: white;
+}
