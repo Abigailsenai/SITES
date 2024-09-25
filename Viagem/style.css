@@ -1,6 +1,105 @@
 *{
-    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:initial;
 }
 header{
-
+    background-color: #1D0F6E;
+    padding: 13px;
+    color: white;
+    display: flex;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+.email{
+    margin: 0px 1006px 0px 80px;
+}
+.inicio{
+    background-image:url(img/aviao.png);
+    padding: 70px 1px;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.slogan{
+    color: white;
+    font-size: 90px;
+    width: 1000px;
+    margin: 1px 100px 500px 100px;
+}
+.tituloPacotes{
+    color: #1D0F6E;
+    font-size: 60px;
+    padding: 65px 10px 35px 7px;
+}
+.fraseFinal{
+    color: #1D0F6E;
+    font-size: 60px;
+    padding: 70px 10px 140px 10px;
+}
+#pacotesTituloEConteudo{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#pacotesTituloEConteudo img {
+    width: 200px
+}
+.pacote1{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 40px;
+    padding: 5px 1px;
+}
+.pacote1:hover{
+    scale: 0.25;
+}
+.pacote2:hover{
+    scale: 0.25;
+}
+.pacote3:hover{
+    scale: 0.25;
+}
+.pacote2{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 40px;
+    padding: 5px 1px;
+}
+.pacote3{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 40px;
+    padding: 5px 1px;
+}
+.pacotes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 325px;
+    font-size: 25px
+}
+footer{
+    background-color: #1D0F6E;
+    padding: 60px 100px;
+    color: white; 
+    align-items: center;
+}
+main{
+    align-items: center;
+}
+span{
+    font-size: 15px;
 }
